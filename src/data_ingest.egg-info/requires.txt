@@ -1,0 +1,4 @@
+openbao-client @ git+https://github.com/JWindy92/openbao_client.git
+
+[dev]
+pytest<9,>=8

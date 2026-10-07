@@ -1,0 +1,20 @@
+[project]
+name = "data-ingest"
+version = "0.1.0"
+description = "Data ingestion pipeline"
+requires-python = ">=3.11"
+dependencies = [
+    "openbao-client @ git+https://github.com/JWindy92/openbao_client.git"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8,<9",
+]
+
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

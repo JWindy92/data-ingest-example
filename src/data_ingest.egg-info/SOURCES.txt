@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+src/data_ingest/__init__.py
+src/data_ingest/pipeline.py
+src/data_ingest/windmill_adapter.py
+src/data_ingest.egg-info/PKG-INFO
+src/data_ingest.egg-info/SOURCES.txt
+src/data_ingest.egg-info/dependency_links.txt
+src/data_ingest.egg-info/requires.txt
+src/data_ingest.egg-info/top_level.txt
+tests/test_pipeline.py
